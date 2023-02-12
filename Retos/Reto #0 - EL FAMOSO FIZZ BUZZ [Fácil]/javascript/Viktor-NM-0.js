@@ -7,7 +7,7 @@
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  */
 
-const numbers = Array.from({length: 50}, (x, i) => {
+const numbers = Array.from({length: 100}, (x, i) => {
     if ((i+1) % 3 === 0 ) return 'fizz'
     if ((i+1) % 5 === 0 ) return 'buzz'
     if ((i+1) % 3 === 0 && (i+1) % 5 === 0) return 'fizzbuzz'
